@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    982261,      16958]
-NotebookOptionsPosition[    976706,      16847]
-NotebookOutlinePosition[    977199,      16865]
-CellTagsIndexPosition[    977156,      16862]
+NotebookDataLength[    986610,      17090]
+NotebookOptionsPosition[    980817,      16975]
+NotebookOutlinePosition[    981310,      16993]
+CellTagsIndexPosition[    981267,      16990]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -16797,7 +16797,135 @@ the characteristic function:\n\t\t",
    3.84434265972783*^9}, {3.844342756683342*^9, 3.844342871305492*^9}, 
    3.844342966021435*^9, {3.846330247457571*^9, 
    3.846330248012377*^9}},ExpressionUUID->"3225525a-b968-403f-a580-\
-1fd0d0cabb94"]
+1fd0d0cabb94"],
+
+Cell[CellGroupData[{
+
+Cell["Coupled linear Langevin equations --> nonlinear Langevin", \
+"Subsubsection",
+ CellChangeTimes->{{3.8467851144033127`*^9, 3.846785127615094*^9}, {
+  3.846785723994336*^9, 
+  3.8467857338958406`*^9}},ExpressionUUID->"52ef9d34-d8de-4b96-8409-\
+ad28994e22e9"],
+
+Cell[BoxData[{
+ RowBox[{
+  StyleBox[Cell[TextData[Cell[BoxData[{
+    FormBox[
+     StyleBox[
+      RowBox[{
+       RowBox[{
+        SubscriptBox[
+         StyleBox[
+          OverscriptBox[
+           StyleBox["x", "Text"], "."], "Text"], "1"], "=", " ", 
+        RowBox[{
+         RowBox[{
+          RowBox[{
+           SubscriptBox[
+            StyleBox["x", "DisplayFormula"], "2"], "+", 
+           RowBox[{
+            SubscriptBox["x", "1"], "\[Xi]"}]}], "  ", "->", " ", 
+          SubscriptBox[
+           StyleBox["x", "DisplayFormula"], "2"]}], "=", 
+         RowBox[{
+          SubscriptBox[
+           StyleBox[
+            OverscriptBox[
+             StyleBox["x", "Text"], "."], "Text"], "1"], "-", 
+          RowBox[{
+           SubscriptBox["x", "1"], "\[Xi]"}]}]}]}], " "}], "DisplayFormula"], 
+     TraditionalForm], "\[IndentingNewLine]", 
+    FormBox[
+     StyleBox[
+      RowBox[{
+       SubscriptBox[
+        StyleBox[
+         OverscriptBox[
+          StyleBox["x", "Text"], "."], "Text"], "2"], "=", " ", 
+       RowBox[{
+        SubscriptBox[
+         StyleBox["x", "DisplayFormula"], "1"], "+", 
+        RowBox[{
+         SubscriptBox["x", "2"], "\[Xi]", "  "}]}]}], "DisplayFormula"], 
+     TraditionalForm]}],
+    FormatType->TraditionalForm,ExpressionUUID->
+    "926c3e18-2d4b-4993-962c-01d54b8f40f2"]],ExpressionUUID->
+    "795138ac-32f7-43e0-83e2-3fe446801ee2"], "DisplayFormula"], 
+  StyleBox["\[IndentingNewLine]", 
+   "DisplayFormula"]}], "\[IndentingNewLine]", Cell[TextData[Cell[BoxData[{
+  StyleBox[
+   RowBox[{
+    SubscriptBox[
+     StyleBox[
+      OverscriptBox[
+       StyleBox["x", "Text"], ".."], "Text"], "1"], "=", " ", 
+    RowBox[{
+     SubscriptBox[
+      StyleBox[
+       OverscriptBox[
+        StyleBox["x", "Text"], "."], "Text"], "2"], "+", 
+     RowBox[{
+      SubscriptBox[
+       OverscriptBox["x", "."], "1"], "\[Xi]", 
+      RowBox[{"+", 
+       SubscriptBox["x", "1"]}], 
+      OverscriptBox["\[Xi]", "."]}]}]}], 
+   "DisplayFormula"], "\[IndentingNewLine]", 
+  RowBox[{
+   StyleBox["      ", "DisplayFormula"], 
+   StyleBox[
+    RowBox[{"=", " ", 
+     RowBox[{
+      SubscriptBox[
+       StyleBox["x", "DisplayFormula"], "1"], "+", 
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{
+         SubscriptBox[
+          StyleBox[
+           OverscriptBox[
+            StyleBox["x", "Text"], "."], "Text"], "1"], "-", 
+         RowBox[{
+          SubscriptBox["x", "1"], "\[Xi]"}]}], ")"}], "\[Xi]"}], " ", "+", 
+      RowBox[{
+       SubscriptBox[
+        OverscriptBox["x", "."], "1"], "\[Xi]", 
+       RowBox[{"+", 
+        SubscriptBox["x", "1"]}], 
+       OverscriptBox["\[Xi]", "."]}]}]}], "DisplayFormula"], 
+   StyleBox[" ", "DisplayFormula"]}], "\[IndentingNewLine]", 
+  RowBox[{
+   StyleBox["     ", "DisplayFormula"], 
+   RowBox[{
+    StyleBox["=", "DisplayFormula"], 
+    StyleBox[" ", "DisplayFormula"], 
+    RowBox[{
+     StyleBox[
+      SubscriptBox[
+       StyleBox["x", "DisplayFormula"], "1"], "DisplayFormula"], 
+     StyleBox["-", "DisplayFormula"], 
+     RowBox[{
+      StyleBox[
+       SubscriptBox["x", "1"], "DisplayFormula"], 
+      SuperscriptBox[
+       StyleBox["\[Xi]", "DisplayFormula"], "2"]}], 
+     StyleBox[" ", "DisplayFormula"], 
+     StyleBox["+", "DisplayFormula"], 
+     StyleBox[
+      RowBox[{"2", 
+       SubscriptBox[
+        OverscriptBox["x", "."], "1"], "\[Xi]", 
+       RowBox[{"+", 
+        SubscriptBox["x", "1"]}], 
+       OverscriptBox["\[Xi]", "."], " "}], "DisplayFormula"]}]}]}]}], "Text",
+  ExpressionUUID->"690ae09d-4017-4769-a719-24e7a8373f54"]],ExpressionUUID->
+  "9f730805-c3e6-4ada-ae28-5316d62a1548"]}], "Text",
+ CellChangeTimes->{{3.8467845767983103`*^9, 3.846784578811508*^9}, {
+  3.8467846184252996`*^9, 
+  3.846785056877933*^9}},ExpressionUUID->"f20dafd2-d01a-4338-8fba-\
+07a94ac2984b"]
+}, Closed]]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -16841,7 +16969,7 @@ e.g. ",
    3.8443429796445637`*^9, 3.8443430628140287`*^9}, 
    3.8463303094043922`*^9},ExpressionUUID->"08ac9ab6-01a8-4f66-bdc1-\
 6c6024da75eb"]
-}, Closed]]
+}, Open  ]]
 }, Open  ]]
 }, Open  ]]
 },
@@ -16952,12 +17080,16 @@ Cell[968246, 16606, 1099, 24, 108, "Text",ExpressionUUID->"39ff1475-2b50-4282-ab
 }, Open  ]],
 Cell[CellGroupData[{
 Cell[969382, 16635, 154, 3, 51, "Subsection",ExpressionUUID->"7bd2c2eb-2e9f-49c5-9980-ff2b7b516036"],
-Cell[969539, 16640, 5739, 159, 641, "Text",ExpressionUUID->"3225525a-b968-403f-a580-1fd0d0cabb94"]
+Cell[969539, 16640, 5739, 159, 641, "Text",ExpressionUUID->"3225525a-b968-403f-a580-1fd0d0cabb94"],
+Cell[CellGroupData[{
+Cell[975303, 16803, 262, 5, 49, "Subsubsection",ExpressionUUID->"52ef9d34-d8de-4b96-8409-ad28994e22e9"],
+Cell[975568, 16810, 3809, 116, 248, "Text",ExpressionUUID->"f20dafd2-d01a-4338-8fba-07a94ac2984b"]
+}, Closed]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[975315, 16804, 269, 4, 51, "Subsection",ExpressionUUID->"6f9e8c22-be2a-4d33-9b28-d8ba85e9af57"],
-Cell[975587, 16810, 1079, 32, 127, "Text",ExpressionUUID->"08ac9ab6-01a8-4f66-bdc1-6c6024da75eb"]
-}, Closed]]
+Cell[979426, 16932, 269, 4, 51, "Subsection",ExpressionUUID->"6f9e8c22-be2a-4d33-9b28-d8ba85e9af57"],
+Cell[979698, 16938, 1079, 32, 129, "Text",ExpressionUUID->"08ac9ab6-01a8-4f66-bdc1-6c6024da75eb"]
+}, Open  ]]
 }, Open  ]]
 }, Open  ]]
 }
